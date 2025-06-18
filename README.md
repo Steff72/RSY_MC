@@ -18,7 +18,7 @@ This repository contains the solution to the RSY Mini-Challenge FS25, which focu
 
 Each model is evaluated on a hold-out test set using:
 - **RMSE**, **MAE**: For rating prediction accuracy
-- **Precision@15**, **Recall@15**: For Top-N recommendation quality  
+- **Precision@15**, **Recall@15**: For Top-N recommendation quality
   (now computed properly using ranked lists of unseen items)
 
 A fair comparison is ensured using consistent masking and observed ratings per user.
@@ -38,3 +38,4 @@ If you want to generate recommendations using the LLM-based (ChatGPT) recommende
 
 ```bash
 OPENAI_API_KEY=your-api-key-here
+```
